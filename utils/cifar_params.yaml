@@ -31,7 +31,7 @@ sampling_dirichlet: true
 dirichlet_alpha: 0.5
 poison_label_swap: 2
 # distributed attackers: (training img num : 526 - 527 - 496 - 546)
- adversary_list: [17, 33, 77, 11]
+adversary_list: [17, 33, 77, 11]
 # centralized attacker: (training img num: 529)
 # ersary_list: [45]
 
