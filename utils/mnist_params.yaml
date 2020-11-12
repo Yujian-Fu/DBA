@@ -31,7 +31,7 @@ scale_weights_poison: 100
 eta: 0.1  # single-shot: 0.1; multi-shot: 1
 
 # distributed attackers: (training img num : 606 - 591 - 568 - 557)
- adversary_list: [41, 73, 51, 74]
+adversary_list: [41, 73, 51, 74]
 # centralized attacker: (training img num :602)
 # adversary_list: [95]
 

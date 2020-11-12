@@ -53,10 +53,10 @@ trigger_num: 4
                     [4, 0], [4, 1], [4, 2], [4, 3], [4, 4], [4, 5], [4, 9], [4, 10], [4, 11], [4, 12], [4, 13], [4, 14]]
 
 # single shot - distributed attack:
- 0_poison_epochs: [203]
- 1_poison_epochs: [205]
- 2_poison_epochs: [207]
- 3_poison_epochs: [209]
+0_poison_epochs: [203]
+1_poison_epochs: [205]
+2_poison_epochs: [207]
+3_poison_epochs: [209]
 # single shot - centralized attack:
 # 0_poison_epochs: [209]
 
