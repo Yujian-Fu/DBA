@@ -163,7 +163,7 @@ if __name__ == '__main__':
             if helper.params['is_random_adversary']==False:
                 adversarial_name_keys=copy.deepcopy(helper.params['adversary_list'])
         logger.info('----------------------------------Start one training epoch------------------------------------------')
-        logger.info(f'Server Epoch:{epoch} choose agents : {agent_name_keys}. Adversary List: {adversary_list}')
+        logger.info(f'Server Epoch:{epoch} choose agents : {agent_name_keys}. Adversary List: {adversarial_name_keys}')
         epochs_submit_update_dict, num_samples_dict = train.train(helper=helper, start_epoch=epoch,
                                                                   local_model=helper.local_model,
                                                                   target_model=helper.target_model,
