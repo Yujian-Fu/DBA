@@ -10,7 +10,7 @@ import logging
 from torchvision import datasets, transforms
 import numpy as np
 
-from models.resnet_cifar import ResNet18
+from models.resnet_cifar import ResNet34
 from models.MnistNet import MnistNet
 from models.resnet_tinyimagenet import resnet18
 logger = logging.getLogger("logger")
@@ -33,9 +33,9 @@ class ImageHelper(Helper):
         local_model=None
         target_model=None
         if self.params['type']==config.TYPE_CIFAR:
-            local_model = ResNet18(name='Local',
+            local_model = ResNet34(name='Local',
                                    created_time=self.params['current_time'])
-            target_model = ResNet18(name='Target',
+            target_model = ResNet34(name='Target',
                                    created_time=self.params['current_time'])
 
         elif self.params['type']==config.TYPE_MNIST:
