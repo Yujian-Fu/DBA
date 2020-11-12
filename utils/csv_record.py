@@ -8,7 +8,7 @@ train_result = []  # train_fileHeader
 test_result = []  # test_fileHeader
 posiontest_result = []  # test_fileHeader
 
-triggertest_fileHeader = ["model", "trigger_name", "trigger_value", "epoch", "average_loss", "accuracy", "correct_data",
+triggertest_fileHeader = ["model", "trigger_name", "epoch", "average_loss", "accuracy", "correct_data",
                           "total_data"]
 poisontriggertest_result = []  # triggertest_fileHeader
 
