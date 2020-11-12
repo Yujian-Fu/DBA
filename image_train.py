@@ -54,7 +54,7 @@ def ImageTrain(helper, start_epoch, local_model, target_model, is_poison,agent_n
                 target_params_variables[name] = last_local_model[name].clone().detach().requires_grad_(False)
 
             if is_poison and agent_name_key in helper.params['adversary_list'] and (epoch in localmodel_poison_epochs):
-                main.logger.info('poison_now')
+                main.logger.info('--------------------Start poison_now -----------------------------')
 
                 poison_lr = helper.params['poison_lr']
                 internal_epoch_num = helper.params['internal_poison_epochs']

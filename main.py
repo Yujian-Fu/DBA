@@ -162,7 +162,7 @@ if __name__ == '__main__':
         else:
             if helper.params['is_random_adversary']==False:
                 adversarial_name_keys=copy.deepcopy(helper.params['adversary_list'])
-        logger.info{'----------------------------------Start one training epoch------------------------------------------'}
+        logger.info('----------------------------------Start one training epoch------------------------------------------')
         logger.info(f'Server Epoch:{epoch} choose agents : {agent_name_keys}. Adversary List: {adversary_list}')
         epochs_submit_update_dict, num_samples_dict = train.train(helper=helper, start_epoch=epoch,
                                                                   local_model=helper.local_model,
@@ -170,7 +170,7 @@ if __name__ == '__main__':
                                                                   is_poison=helper.params['is_poison'],
                                                                   agent_name_keys=agent_name_keys)
         logger.info(f'time spent on training: {time.time() - t}')
-        logger.info{'----------------------------------End one training epoch------------------------------------------'}
+        logger.info('----------------------------------End one training epoch------------------------------------------')
         weight_accumulator, updates = helper.accumulate_weight(weight_accumulator, epochs_submit_update_dict,
                                                                agent_name_keys, num_samples_dict)
         is_updated = True
