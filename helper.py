@@ -252,7 +252,8 @@ class Helper:
             # update_per_layer = update_per_layer * 1.0 / epoch_interval
             if self.params['diff_privacy']:
                 update_per_layer.add_(self.dp_noise(data, self.params['sigma']))
-
+            if update_per_layer.dtype!=data.dtype:
+                update_per_layer = update_per_layer.type_as(data)
             data.add_(update_per_layer)
         return True
 
@@ -362,6 +363,8 @@ class Helper:
                 update_per_layer = median[name] * (self.params["eta"])
                 if self.params['diff_privacy']:
                     update_per_layer.add_(self.dp_noise(data, self.params['sigma']))
+                if update_per_layer.dtype!=data.dtype:
+                    update_per_layer = update_per_layer.type_as(data)
                 data.add_(update_per_layer)
             is_updated = True
         else:
