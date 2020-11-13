@@ -41,7 +41,7 @@ adversary_list: [51, 74]
 
 poison_label_swap: 2
 centralized_test_trigger: True
-trigger_num: 4
+trigger_num: 2
 
 ## gap 2 size 1*4 base (0, 0)
 #0_poison_pattern: [[0, 0], [0, 1], [0, 2], [0, 3]]
