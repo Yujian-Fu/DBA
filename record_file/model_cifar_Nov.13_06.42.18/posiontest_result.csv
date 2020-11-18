@@ -1,6 +1,0 @@
-model,epoch,average_loss,accuracy,correct_data,total_data
-global,201,nan,0.0,0,9000
-global,202,nan,0.0,0,9000
-17,203,nan,0.0,0,9000
-17,203,nan,0.0,0,9000
-global,203,nan,0.0,0,9000
