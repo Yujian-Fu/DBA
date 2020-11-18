@@ -1,0 +1,326 @@
+current path: saved_models/model_cifar_Nov.13_06.47.24
+Loading data
+build_classes_dict done
+train loaders done
+get poison test loader
+load data done
+Loaded parameters from saved model: LR is 0.1 and current epoch is 201
+create model done
+Poisoned following participants: [17, 33, 77, 11]
+We use following environment for graphs:  cifar
+----------------------------------Start one training epoch------------------------------------------
+Server Epoch:201 choose agents : [17, 33, 77, 11, 37, 53, 39, 57, 63, 48]. Adversary List: [17, 33, 77, 11]
+poison local model 17 index 0 
+--------------------Start poison_now -----------------------------
+Current lr: [0.05]
+___PoisonTrain Local_ResNet_18 ,  epoch 201, local model 17, internal_epoch   1,  Average loss: nan, Accuracy: 90/526 (17.1103%), train_poison_data_count: 45
+Current lr: [0.05]
+___PoisonTrain Local_ResNet_18 ,  epoch 201, local model 17, internal_epoch   2,  Average loss: nan, Accuracy: 49/526 (9.3156%), train_poison_data_count: 45
+Current lr: [0.05]
+___PoisonTrain Local_ResNet_18 ,  epoch 201, local model 17, internal_epoch   3,  Average loss: nan, Accuracy: 48/526 (9.1255%), train_poison_data_count: 45
+Current lr: [0.05]
+___PoisonTrain Local_ResNet_18 ,  epoch 201, local model 17, internal_epoch   4,  Average loss: nan, Accuracy: 47/526 (8.9354%), train_poison_data_count: 45
+Current lr: [0.05]
+___PoisonTrain Local_ResNet_18 ,  epoch 201, local model 17, internal_epoch   5,  Average loss: nan, Accuracy: 46/526 (8.7452%), train_poison_data_count: 45
+Current lr: [0.05]
+___PoisonTrain Local_ResNet_18 ,  epoch 201, local model 17, internal_epoch   6,  Average loss: nan, Accuracy: 47/526 (8.9354%), train_poison_data_count: 45
+Global model norm: 37.66304399291831.
+Norm before scaling: nan. Distance: nan
+will scale.
+___Test Local_ResNet_18 poisoned: False, epoch: 201: Average loss: nan, Accuracy: 1000/10000 (10.0000%)
+___Test Local_ResNet_18 poisoned: True, epoch: 201: Average loss: nan, Accuracy: 0/9000 (0.0000%)
+Scaling by  100
+Scaled Norm after poisoning: nan, distance: nan
+Total norm for 4 adversaries is: nan. distance: nan
+___Test Local_ResNet_18 poisoned: True, epoch: 201: Average loss: nan, Accuracy: 0/9000 (0.0000%)
+poison local model 33 index 1 
+--------------------Start poison_now -----------------------------
+Current lr: [0.05]
+___PoisonTrain Local_ResNet_18 ,  epoch 201, local model 33, internal_epoch   1,  Average loss: nan, Accuracy: 49/527 (9.2979%), train_poison_data_count: 45
+Current lr: [0.05]
+___PoisonTrain Local_ResNet_18 ,  epoch 201, local model 33, internal_epoch   2,  Average loss: nan, Accuracy: 2/527 (0.3795%), train_poison_data_count: 45
+Current lr: [0.05]
+___PoisonTrain Local_ResNet_18 ,  epoch 201, local model 33, internal_epoch   3,  Average loss: nan, Accuracy: 0/527 (0.0000%), train_poison_data_count: 45
+Current lr: [0.05]
+___PoisonTrain Local_ResNet_18 ,  epoch 201, local model 33, internal_epoch   4,  Average loss: nan, Accuracy: 2/527 (0.3795%), train_poison_data_count: 45
+Current lr: [0.05]
+___PoisonTrain Local_ResNet_18 ,  epoch 201, local model 33, internal_epoch   5,  Average loss: nan, Accuracy: 2/527 (0.3795%), train_poison_data_count: 45
+Current lr: [0.05]
+___PoisonTrain Local_ResNet_18 ,  epoch 201, local model 33, internal_epoch   6,  Average loss: nan, Accuracy: 2/527 (0.3795%), train_poison_data_count: 45
+Global model norm: 37.66304399291831.
+Norm before scaling: nan. Distance: nan
+will scale.
+___Test Local_ResNet_18 poisoned: False, epoch: 201: Average loss: nan, Accuracy: 1000/10000 (10.0000%)
+___Test Local_ResNet_18 poisoned: True, epoch: 201: Average loss: nan, Accuracy: 0/9000 (0.0000%)
+Scaling by  100
+Scaled Norm after poisoning: nan, distance: nan
+Total norm for 4 adversaries is: nan. distance: nan
+___Test Local_ResNet_18 poisoned: True, epoch: 201: Average loss: nan, Accuracy: 0/9000 (0.0000%)
+poison local model 77 index 2 
+--------------------Start poison_now -----------------------------
+Current lr: [0.05]
+___PoisonTrain Local_ResNet_18 ,  epoch 201, local model 77, internal_epoch   1,  Average loss: nan, Accuracy: 81/496 (16.3306%), train_poison_data_count: 40
+Current lr: [0.05]
+___PoisonTrain Local_ResNet_18 ,  epoch 201, local model 77, internal_epoch   2,  Average loss: nan, Accuracy: 34/496 (6.8548%), train_poison_data_count: 40
+Current lr: [0.05]
+___PoisonTrain Local_ResNet_18 ,  epoch 201, local model 77, internal_epoch   3,  Average loss: nan, Accuracy: 34/496 (6.8548%), train_poison_data_count: 40
+Current lr: [0.05]
+___PoisonTrain Local_ResNet_18 ,  epoch 201, local model 77, internal_epoch   4,  Average loss: nan, Accuracy: 31/496 (6.2500%), train_poison_data_count: 40
+Current lr: [0.05]
+___PoisonTrain Local_ResNet_18 ,  epoch 201, local model 77, internal_epoch   5,  Average loss: nan, Accuracy: 34/496 (6.8548%), train_poison_data_count: 40
+Current lr: [0.05]
+___PoisonTrain Local_ResNet_18 ,  epoch 201, local model 77, internal_epoch   6,  Average loss: nan, Accuracy: 31/496 (6.2500%), train_poison_data_count: 40
+Global model norm: 37.663040751801695.
+Norm before scaling: nan. Distance: nan
+will scale.
+___Test Local_ResNet_18 poisoned: False, epoch: 201: Average loss: nan, Accuracy: 1000/10000 (10.0000%)
+___Test Local_ResNet_18 poisoned: True, epoch: 201: Average loss: nan, Accuracy: 0/9000 (0.0000%)
+Scaling by  100
+Scaled Norm after poisoning: nan, distance: nan
+Total norm for 4 adversaries is: nan. distance: nan
+___Test Local_ResNet_18 poisoned: True, epoch: 201: Average loss: nan, Accuracy: 0/9000 (0.0000%)
+poison local model 11 index 3 
+--------------------Start poison_now -----------------------------
+Current lr: [0.05]
+___PoisonTrain Local_ResNet_18 ,  epoch 201, local model 11, internal_epoch   1,  Average loss: nan, Accuracy: 65/546 (11.9048%), train_poison_data_count: 45
+Current lr: [0.05]
+___PoisonTrain Local_ResNet_18 ,  epoch 201, local model 11, internal_epoch   2,  Average loss: nan, Accuracy: 9/546 (1.6484%), train_poison_data_count: 45
+Current lr: [0.05]
+___PoisonTrain Local_ResNet_18 ,  epoch 201, local model 11, internal_epoch   3,  Average loss: nan, Accuracy: 9/546 (1.6484%), train_poison_data_count: 45
+Current lr: [0.05]
+___PoisonTrain Local_ResNet_18 ,  epoch 201, local model 11, internal_epoch   4,  Average loss: nan, Accuracy: 9/546 (1.6484%), train_poison_data_count: 45
+Current lr: [0.05]
+___PoisonTrain Local_ResNet_18 ,  epoch 201, local model 11, internal_epoch   5,  Average loss: nan, Accuracy: 9/546 (1.6484%), train_poison_data_count: 45
+Current lr: [0.05]
+___PoisonTrain Local_ResNet_18 ,  epoch 201, local model 11, internal_epoch   6,  Average loss: nan, Accuracy: 8/546 (1.4652%), train_poison_data_count: 45
+Global model norm: 37.663040751801695.
+Norm before scaling: nan. Distance: nan
+will scale.
+___Test Local_ResNet_18 poisoned: False, epoch: 201: Average loss: nan, Accuracy: 1000/10000 (10.0000%)
+___Test Local_ResNet_18 poisoned: True, epoch: 201: Average loss: nan, Accuracy: 0/9000 (0.0000%)
+Scaling by  100
+Scaled Norm after poisoning: nan, distance: nan
+Total norm for 4 adversaries is: nan. distance: nan
+___Test Local_ResNet_18 poisoned: True, epoch: 201: Average loss: nan, Accuracy: 0/9000 (0.0000%)
+___Train Local_ResNet_18,  epoch 201, local model 37, internal_epoch   1,  Average loss: nan, Accuracy: 157/725 (21.6552%)
+___Train Local_ResNet_18,  epoch 201, local model 37, internal_epoch   2,  Average loss: nan, Accuracy: 139/725 (19.1724%)
+___Test Local_ResNet_18 poisoned: False, epoch: 201: Average loss: nan, Accuracy: 1000/10000 (10.0000%)
+___Train Local_ResNet_18,  epoch 201, local model 53, internal_epoch   1,  Average loss: nan, Accuracy: 244/625 (39.0400%)
+___Train Local_ResNet_18,  epoch 201, local model 53, internal_epoch   2,  Average loss: nan, Accuracy: 208/625 (33.2800%)
+___Test Local_ResNet_18 poisoned: False, epoch: 201: Average loss: nan, Accuracy: 1000/10000 (10.0000%)
+___Train Local_ResNet_18,  epoch 201, local model 39, internal_epoch   1,  Average loss: nan, Accuracy: 56/217 (25.8065%)
+___Train Local_ResNet_18,  epoch 201, local model 39, internal_epoch   2,  Average loss: nan, Accuracy: 7/217 (3.2258%)
+___Test Local_ResNet_18 poisoned: False, epoch: 201: Average loss: nan, Accuracy: 1000/10000 (10.0000%)
+___Train Local_ResNet_18,  epoch 201, local model 57, internal_epoch   1,  Average loss: nan, Accuracy: 51/290 (17.5862%)
+___Train Local_ResNet_18,  epoch 201, local model 57, internal_epoch   2,  Average loss: nan, Accuracy: 0/290 (0.0000%)
+___Test Local_ResNet_18 poisoned: False, epoch: 201: Average loss: nan, Accuracy: 1000/10000 (10.0000%)
+___Train Local_ResNet_18,  epoch 201, local model 63, internal_epoch   1,  Average loss: nan, Accuracy: 131/752 (17.4202%)
+___Train Local_ResNet_18,  epoch 201, local model 63, internal_epoch   2,  Average loss: nan, Accuracy: 85/752 (11.3032%)
+___Test Local_ResNet_18 poisoned: False, epoch: 201: Average loss: nan, Accuracy: 1000/10000 (10.0000%)
+___Train Local_ResNet_18,  epoch 201, local model 48, internal_epoch   1,  Average loss: nan, Accuracy: 165/378 (43.6508%)
+___Train Local_ResNet_18,  epoch 201, local model 48, internal_epoch   2,  Average loss: nan, Accuracy: 141/378 (37.3016%)
+___Test Local_ResNet_18 poisoned: False, epoch: 201: Average loss: nan, Accuracy: 1000/10000 (10.0000%)
+time spent on training: 1846.7557032108307
+----------------------------------End one training epoch------------------------------------------
+[rfa agg] training data poison_ratio: 0.4122392758756395  data num: [526, 527, 496, 546, 725, 625, 217, 290, 752, 378]
+[rfa agg] considering poison per batch poison_fraction: 0.03220619342778434
+[rfa agg] init. name: [17, 33, 77, 11, 37, 53, 39, 57, 63, 48], weight: tensor([0.1035, 0.1037, 0.0976, 0.1074, 0.1427, 0.1230, 0.0427, 0.0571, 0.1480,
+        0.0744])
+[rfa agg] iter:  0, prev_obj_val: nan, obj_val: nan, abs dis: nan
+[rfa agg] iter:  0, weight: tensor([0.1035, 0.1037, 0.0976, 0.1074, 0.1427, 0.1230, 0.0427, 0.0571, 0.1480,
+        0.0744])
+[rfa agg] iter:  1, prev_obj_val: nan, obj_val: nan, abs dis: nan
+[rfa agg] iter:  1, weight: tensor([0.1035, 0.1037, 0.0976, 0.1074, 0.1427, 0.1230, 0.0427, 0.0571, 0.1480,
+        0.0744])
+[rfa agg] iter:  2, prev_obj_val: nan, obj_val: nan, abs dis: nan
+[rfa agg] iter:  2, weight: tensor([0.1035, 0.1037, 0.0976, 0.1074, 0.1427, 0.1230, 0.0427, 0.0571, 0.1480,
+        0.0744])
+[rfa agg] iter:  3, prev_obj_val: nan, obj_val: nan, abs dis: nan
+[rfa agg] iter:  3, weight: tensor([0.1035, 0.1037, 0.0976, 0.1074, 0.1427, 0.1230, 0.0427, 0.0571, 0.1480,
+        0.0744])
+[rfa agg] iter:  4, prev_obj_val: nan, obj_val: nan, abs dis: nan
+[rfa agg] iter:  4, weight: tensor([0.1035, 0.1037, 0.0976, 0.1074, 0.1427, 0.1230, 0.0427, 0.0571, 0.1480,
+        0.0744])
+[rfa agg] iter:  5, prev_obj_val: nan, obj_val: nan, abs dis: nan
+[rfa agg] iter:  5, weight: tensor([0.1035, 0.1037, 0.0976, 0.1074, 0.1427, 0.1230, 0.0427, 0.0571, 0.1480,
+        0.0744])
+[rfa agg] iter:  6, prev_obj_val: nan, obj_val: nan, abs dis: nan
+[rfa agg] iter:  6, weight: tensor([0.1035, 0.1037, 0.0976, 0.1074, 0.1427, 0.1230, 0.0427, 0.0571, 0.1480,
+        0.0744])
+[rfa agg] iter:  7, prev_obj_val: nan, obj_val: nan, abs dis: nan
+[rfa agg] iter:  7, weight: tensor([0.1035, 0.1037, 0.0976, 0.1074, 0.1427, 0.1230, 0.0427, 0.0571, 0.1480,
+        0.0744])
+[rfa agg] iter:  8, prev_obj_val: nan, obj_val: nan, abs dis: nan
+[rfa agg] iter:  8, weight: tensor([0.1035, 0.1037, 0.0976, 0.1074, 0.1427, 0.1230, 0.0427, 0.0571, 0.1480,
+        0.0744])
+[rfa agg] iter:  9, prev_obj_val: nan, obj_val: nan, abs dis: nan
+[rfa agg] iter:  9, weight: tensor([0.1035, 0.1037, 0.0976, 0.1074, 0.1427, 0.1230, 0.0427, 0.0571, 0.1480,
+        0.0744])
+___Test Target_ResNet_18 poisoned: False, epoch: 201: Average loss: nan, Accuracy: 1000/10000 (10.0000%)
+___Test Target_ResNet_18 poisoned: True, epoch: 201: Average loss: nan, Accuracy: 0/9000 (0.0000%)
+Done in 2244.0660037994385 sec.
+----------------------------------Start one training epoch------------------------------------------
+Server Epoch:202 choose agents : [17, 33, 77, 11, 63, 50, 39, 72, 88, 71]. Adversary List: [17, 33, 77, 11]
+poison local model 17 index 0 
+--------------------Start poison_now -----------------------------
+Current lr: [0.05]
+___PoisonTrain Local_ResNet_18 ,  epoch 202, local model 17, internal_epoch   1,  Average loss: nan, Accuracy: 47/526 (8.9354%), train_poison_data_count: 45
+Current lr: [0.05]
+___PoisonTrain Local_ResNet_18 ,  epoch 202, local model 17, internal_epoch   2,  Average loss: nan, Accuracy: 48/526 (9.1255%), train_poison_data_count: 45
+Current lr: [0.05]
+___PoisonTrain Local_ResNet_18 ,  epoch 202, local model 17, internal_epoch   3,  Average loss: nan, Accuracy: 45/526 (8.5551%), train_poison_data_count: 45
+Current lr: [0.05]
+___PoisonTrain Local_ResNet_18 ,  epoch 202, local model 17, internal_epoch   4,  Average loss: nan, Accuracy: 48/526 (9.1255%), train_poison_data_count: 45
+Current lr: [0.05]
+___PoisonTrain Local_ResNet_18 ,  epoch 202, local model 17, internal_epoch   5,  Average loss: nan, Accuracy: 45/526 (8.5551%), train_poison_data_count: 45
+Current lr: [0.05]
+___PoisonTrain Local_ResNet_18 ,  epoch 202, local model 17, internal_epoch   6,  Average loss: nan, Accuracy: 47/526 (8.9354%), train_poison_data_count: 45
+Global model norm: nan.
+Norm before scaling: nan. Distance: nan
+will scale.
+___Test Local_ResNet_18 poisoned: False, epoch: 202: Average loss: nan, Accuracy: 1000/10000 (10.0000%)
+___Test Local_ResNet_18 poisoned: True, epoch: 202: Average loss: nan, Accuracy: 0/9000 (0.0000%)
+Scaling by  100
+Scaled Norm after poisoning: nan, distance: nan
+Total norm for 4 adversaries is: nan. distance: nan
+___Test Local_ResNet_18 poisoned: True, epoch: 202: Average loss: nan, Accuracy: 0/9000 (0.0000%)
+poison local model 33 index 1 
+--------------------Start poison_now -----------------------------
+Current lr: [0.05]
+___PoisonTrain Local_ResNet_18 ,  epoch 202, local model 33, internal_epoch   1,  Average loss: nan, Accuracy: 2/527 (0.3795%), train_poison_data_count: 45
+Current lr: [0.05]
+___PoisonTrain Local_ResNet_18 ,  epoch 202, local model 33, internal_epoch   2,  Average loss: nan, Accuracy: 2/527 (0.3795%), train_poison_data_count: 45
+Current lr: [0.05]
+___PoisonTrain Local_ResNet_18 ,  epoch 202, local model 33, internal_epoch   3,  Average loss: nan, Accuracy: 2/527 (0.3795%), train_poison_data_count: 45
+Current lr: [0.05]
+___PoisonTrain Local_ResNet_18 ,  epoch 202, local model 33, internal_epoch   4,  Average loss: nan, Accuracy: 2/527 (0.3795%), train_poison_data_count: 45
+Current lr: [0.05]
+___PoisonTrain Local_ResNet_18 ,  epoch 202, local model 33, internal_epoch   5,  Average loss: nan, Accuracy: 1/527 (0.1898%), train_poison_data_count: 45
+Current lr: [0.05]
+___PoisonTrain Local_ResNet_18 ,  epoch 202, local model 33, internal_epoch   6,  Average loss: nan, Accuracy: 2/527 (0.3795%), train_poison_data_count: 45
+Global model norm: nan.
+Norm before scaling: nan. Distance: nan
+will scale.
+___Test Local_ResNet_18 poisoned: False, epoch: 202: Average loss: nan, Accuracy: 1000/10000 (10.0000%)
+___Test Local_ResNet_18 poisoned: True, epoch: 202: Average loss: nan, Accuracy: 0/9000 (0.0000%)
+Scaling by  100
+Scaled Norm after poisoning: nan, distance: nan
+Total norm for 4 adversaries is: nan. distance: nan
+___Test Local_ResNet_18 poisoned: True, epoch: 202: Average loss: nan, Accuracy: 0/9000 (0.0000%)
+poison local model 77 index 2 
+--------------------Start poison_now -----------------------------
+Current lr: [0.05]
+___PoisonTrain Local_ResNet_18 ,  epoch 202, local model 77, internal_epoch   1,  Average loss: nan, Accuracy: 34/496 (6.8548%), train_poison_data_count: 40
+Current lr: [0.05]
+___PoisonTrain Local_ResNet_18 ,  epoch 202, local model 77, internal_epoch   2,  Average loss: nan, Accuracy: 31/496 (6.2500%), train_poison_data_count: 40
+Current lr: [0.05]
+___PoisonTrain Local_ResNet_18 ,  epoch 202, local model 77, internal_epoch   3,  Average loss: nan, Accuracy: 31/496 (6.2500%), train_poison_data_count: 40
+Current lr: [0.05]
+___PoisonTrain Local_ResNet_18 ,  epoch 202, local model 77, internal_epoch   4,  Average loss: nan, Accuracy: 33/496 (6.6532%), train_poison_data_count: 40
+Current lr: [0.05]
+___PoisonTrain Local_ResNet_18 ,  epoch 202, local model 77, internal_epoch   5,  Average loss: nan, Accuracy: 29/496 (5.8468%), train_poison_data_count: 40
+Current lr: [0.05]
+___PoisonTrain Local_ResNet_18 ,  epoch 202, local model 77, internal_epoch   6,  Average loss: nan, Accuracy: 34/496 (6.8548%), train_poison_data_count: 40
+Global model norm: nan.
+Norm before scaling: nan. Distance: nan
+will scale.
+___Test Local_ResNet_18 poisoned: False, epoch: 202: Average loss: nan, Accuracy: 1000/10000 (10.0000%)
+___Test Local_ResNet_18 poisoned: True, epoch: 202: Average loss: nan, Accuracy: 0/9000 (0.0000%)
+Scaling by  100
+Scaled Norm after poisoning: nan, distance: nan
+Total norm for 4 adversaries is: nan. distance: nan
+___Test Local_ResNet_18 poisoned: True, epoch: 202: Average loss: nan, Accuracy: 0/9000 (0.0000%)
+poison local model 11 index 3 
+--------------------Start poison_now -----------------------------
+Current lr: [0.05]
+___PoisonTrain Local_ResNet_18 ,  epoch 202, local model 11, internal_epoch   1,  Average loss: nan, Accuracy: 8/546 (1.4652%), train_poison_data_count: 45
+Current lr: [0.05]
+___PoisonTrain Local_ResNet_18 ,  epoch 202, local model 11, internal_epoch   2,  Average loss: nan, Accuracy: 8/546 (1.4652%), train_poison_data_count: 45
+Current lr: [0.05]
+___PoisonTrain Local_ResNet_18 ,  epoch 202, local model 11, internal_epoch   3,  Average loss: nan, Accuracy: 6/546 (1.0989%), train_poison_data_count: 45
+Current lr: [0.05]
+___PoisonTrain Local_ResNet_18 ,  epoch 202, local model 11, internal_epoch   4,  Average loss: nan, Accuracy: 9/546 (1.6484%), train_poison_data_count: 45
+Current lr: [0.05]
+___PoisonTrain Local_ResNet_18 ,  epoch 202, local model 11, internal_epoch   5,  Average loss: nan, Accuracy: 8/546 (1.4652%), train_poison_data_count: 45
+Current lr: [0.05]
+___PoisonTrain Local_ResNet_18 ,  epoch 202, local model 11, internal_epoch   6,  Average loss: nan, Accuracy: 9/546 (1.6484%), train_poison_data_count: 45
+Global model norm: nan.
+Norm before scaling: nan. Distance: nan
+will scale.
+___Test Local_ResNet_18 poisoned: False, epoch: 202: Average loss: nan, Accuracy: 1000/10000 (10.0000%)
+___Test Local_ResNet_18 poisoned: True, epoch: 202: Average loss: nan, Accuracy: 0/9000 (0.0000%)
+Scaling by  100
+Scaled Norm after poisoning: nan, distance: nan
+Total norm for 4 adversaries is: nan. distance: nan
+___Test Local_ResNet_18 poisoned: True, epoch: 202: Average loss: nan, Accuracy: 0/9000 (0.0000%)
+___Train Local_ResNet_18,  epoch 202, local model 63, internal_epoch   1,  Average loss: nan, Accuracy: 85/752 (11.3032%)
+___Train Local_ResNet_18,  epoch 202, local model 63, internal_epoch   2,  Average loss: nan, Accuracy: 85/752 (11.3032%)
+___Test Local_ResNet_18 poisoned: False, epoch: 202: Average loss: nan, Accuracy: 1000/10000 (10.0000%)
+___Train Local_ResNet_18,  epoch 202, local model 50, internal_epoch   1,  Average loss: nan, Accuracy: 0/401 (0.0000%)
+___Train Local_ResNet_18,  epoch 202, local model 50, internal_epoch   2,  Average loss: nan, Accuracy: 0/401 (0.0000%)
+___Test Local_ResNet_18 poisoned: False, epoch: 202: Average loss: nan, Accuracy: 1000/10000 (10.0000%)
+___Train Local_ResNet_18,  epoch 202, local model 39, internal_epoch   1,  Average loss: nan, Accuracy: 7/217 (3.2258%)
+___Train Local_ResNet_18,  epoch 202, local model 39, internal_epoch   2,  Average loss: nan, Accuracy: 7/217 (3.2258%)
+___Test Local_ResNet_18 poisoned: False, epoch: 202: Average loss: nan, Accuracy: 1000/10000 (10.0000%)
+___Train Local_ResNet_18,  epoch 202, local model 72, internal_epoch   1,  Average loss: nan, Accuracy: 4/618 (0.6472%)
+___Train Local_ResNet_18,  epoch 202, local model 72, internal_epoch   2,  Average loss: nan, Accuracy: 4/618 (0.6472%)
+___Test Local_ResNet_18 poisoned: False, epoch: 202: Average loss: nan, Accuracy: 1000/10000 (10.0000%)
+___Train Local_ResNet_18,  epoch 202, local model 88, internal_epoch   1,  Average loss: nan, Accuracy: 62/447 (13.8702%)
+___Train Local_ResNet_18,  epoch 202, local model 88, internal_epoch   2,  Average loss: nan, Accuracy: 62/447 (13.8702%)
+___Test Local_ResNet_18 poisoned: False, epoch: 202: Average loss: nan, Accuracy: 1000/10000 (10.0000%)
+___Train Local_ResNet_18,  epoch 202, local model 71, internal_epoch   1,  Average loss: nan, Accuracy: 6/1166 (0.5146%)
+___Train Local_ResNet_18,  epoch 202, local model 71, internal_epoch   2,  Average loss: nan, Accuracy: 6/1166 (0.5146%)
+___Test Local_ResNet_18 poisoned: False, epoch: 202: Average loss: nan, Accuracy: 1000/10000 (10.0000%)
+time spent on training: 2150.003900051117
+----------------------------------End one training epoch------------------------------------------
+[rfa agg] training data poison_ratio: 0.36780196629213485  data num: [526, 527, 496, 546, 752, 401, 217, 618, 447, 1166]
+[rfa agg] considering poison per batch poison_fraction: 0.028734528616573034
+[rfa agg] init. name: [17, 33, 77, 11, 63, 50, 39, 72, 88, 71], weight: tensor([0.0923, 0.0925, 0.0871, 0.0959, 0.1320, 0.0704, 0.0381, 0.1085, 0.0785,
+        0.2047])
+[rfa agg] iter:  0, prev_obj_val: nan, obj_val: nan, abs dis: nan
+[rfa agg] iter:  0, weight: tensor([0.0923, 0.0925, 0.0871, 0.0959, 0.1320, 0.0704, 0.0381, 0.1085, 0.0785,
+        0.2047])
+[rfa agg] iter:  1, prev_obj_val: nan, obj_val: nan, abs dis: nan
+[rfa agg] iter:  1, weight: tensor([0.0923, 0.0925, 0.0871, 0.0959, 0.1320, 0.0704, 0.0381, 0.1085, 0.0785,
+        0.2047])
+[rfa agg] iter:  2, prev_obj_val: nan, obj_val: nan, abs dis: nan
+[rfa agg] iter:  2, weight: tensor([0.0923, 0.0925, 0.0871, 0.0959, 0.1320, 0.0704, 0.0381, 0.1085, 0.0785,
+        0.2047])
+[rfa agg] iter:  3, prev_obj_val: nan, obj_val: nan, abs dis: nan
+[rfa agg] iter:  3, weight: tensor([0.0923, 0.0925, 0.0871, 0.0959, 0.1320, 0.0704, 0.0381, 0.1085, 0.0785,
+        0.2047])
+[rfa agg] iter:  4, prev_obj_val: nan, obj_val: nan, abs dis: nan
+[rfa agg] iter:  4, weight: tensor([0.0923, 0.0925, 0.0871, 0.0959, 0.1320, 0.0704, 0.0381, 0.1085, 0.0785,
+        0.2047])
+[rfa agg] iter:  5, prev_obj_val: nan, obj_val: nan, abs dis: nan
+[rfa agg] iter:  5, weight: tensor([0.0923, 0.0925, 0.0871, 0.0959, 0.1320, 0.0704, 0.0381, 0.1085, 0.0785,
+        0.2047])
+[rfa agg] iter:  6, prev_obj_val: nan, obj_val: nan, abs dis: nan
+[rfa agg] iter:  6, weight: tensor([0.0923, 0.0925, 0.0871, 0.0959, 0.1320, 0.0704, 0.0381, 0.1085, 0.0785,
+        0.2047])
+[rfa agg] iter:  7, prev_obj_val: nan, obj_val: nan, abs dis: nan
+[rfa agg] iter:  7, weight: tensor([0.0923, 0.0925, 0.0871, 0.0959, 0.1320, 0.0704, 0.0381, 0.1085, 0.0785,
+        0.2047])
+[rfa agg] iter:  8, prev_obj_val: nan, obj_val: nan, abs dis: nan
+[rfa agg] iter:  8, weight: tensor([0.0923, 0.0925, 0.0871, 0.0959, 0.1320, 0.0704, 0.0381, 0.1085, 0.0785,
+        0.2047])
+[rfa agg] iter:  9, prev_obj_val: nan, obj_val: nan, abs dis: nan
+[rfa agg] iter:  9, weight: tensor([0.0923, 0.0925, 0.0871, 0.0959, 0.1320, 0.0704, 0.0381, 0.1085, 0.0785,
+        0.2047])
+___Test Target_ResNet_18 poisoned: False, epoch: 202: Average loss: nan, Accuracy: 1000/10000 (10.0000%)
+___Test Target_ResNet_18 poisoned: True, epoch: 202: Average loss: nan, Accuracy: 0/9000 (0.0000%)
+Done in 2545.448667526245 sec.
+----------------------------------Start one training epoch------------------------------------------
+Server Epoch:203 choose agents : [17, 33, 77, 11, 92, 23, 26, 50, 14, 76]. Adversary List: [17, 33, 77, 11]
+poison local model 17 index 0 
+--------------------Start poison_now -----------------------------
+Current lr: [0.05]
+___PoisonTrain Local_ResNet_18 ,  epoch 203, local model 17, internal_epoch   1,  Average loss: nan, Accuracy: 44/526 (8.3650%), train_poison_data_count: 45
+Current lr: [0.05]
+___PoisonTrain Local_ResNet_18 ,  epoch 203, local model 17, internal_epoch   2,  Average loss: nan, Accuracy: 48/526 (9.1255%), train_poison_data_count: 45
+Current lr: [0.05]
+___PoisonTrain Local_ResNet_18 ,  epoch 203, local model 17, internal_epoch   3,  Average loss: nan, Accuracy: 50/526 (9.5057%), train_poison_data_count: 45
+Current lr: [0.05]
+___PoisonTrain Local_ResNet_18 ,  epoch 203, local model 17, internal_epoch   4,  Average loss: nan, Accuracy: 45/526 (8.5551%), train_poison_data_count: 45
+Current lr: [0.05]
+___PoisonTrain Local_ResNet_18 ,  epoch 203, local model 17, internal_epoch   5,  Average loss: nan, Accuracy: 47/526 (8.9354%), train_poison_data_count: 45

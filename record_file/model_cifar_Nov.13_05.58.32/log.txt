@@ -1,0 +1,12 @@
+current path: saved_models/model_cifar_Nov.13_05.58.32
+Loading data
+build_classes_dict done
+train loaders done
+get poison test loader
+load data done
+Loaded parameters from saved model: LR is 0.1 and current epoch is 201
+create model done
+Poisoned following participants: [77, 11]
+We use following environment for graphs:  cifar
+----------------------------------Start one training epoch------------------------------------------
+Server Epoch:201 choose agents : [35, 51, 37, 11, 55, 61, 46, 48, 70, 86]. Adversary List: []

@@ -1,0 +1,19 @@
+# Plan:
+# Implement: Krum, Multi-Krum
+
+# Noise privacy preserving
+
+# New Model and new Dataset （Larger model and larger dataset)
+
+# Image distraction: With the same number of pixels, What is the most important  
+
+# Visualize the parameter: which layer changes the most? Make the defend layer by layer They will only change the parameter in specific layer
+
+# The forget curve of the attack model
+
+Dataset: CIFAR, Tiny, Mnist
+
+1. Is the defend system working?
+2. Run Tiny set 
+3. Run multi-mechanism
+
