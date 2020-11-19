@@ -169,6 +169,7 @@ if __name__ == '__main__':
                                                                   target_model=helper.target_model,
                                                                   is_poison=helper.params['is_poison'],
                                                                   agent_name_keys=agent_name_keys)
+        
         logger.info(f'time spent on training: {time.time() - t}')
         logger.info('----------------------------------End one training epoch------------------------------------------')
         weight_accumulator, updates = helper.accumulate_weight(weight_accumulator, epochs_submit_update_dict,
