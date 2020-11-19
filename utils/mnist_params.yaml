@@ -70,9 +70,9 @@ baseline: true # single-shot: false; multi-shot:true
 
 
 # distributed attackers: (training img num : 606 - 591 - 568 - 557)
-adversary_list: [41, 73, 51, 74]
+#adversary_list: [41, 73, 51, 74]
 # centralized attacker: (training img num :602)
-#adversary_list: [95]
+adversary_list: [95]
 
 # smaller size distributed attacker:
 #adversary_list: [51, 74]
