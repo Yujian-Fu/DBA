@@ -64,7 +64,7 @@ centralized_test_trigger: True
 aggregation_methods: 'mean'
 
 #global lr:
-eta: 1  # single-shot: 0.1; multi-shot: 1
+eta: 0.1  # single-shot: 0.1; multi-shot: 1
 
 baseline: false # single-shot: false; multi-shot:true
 
