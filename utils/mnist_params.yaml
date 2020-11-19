@@ -12,8 +12,6 @@ internal_epochs: 1
 internal_poison_epochs: 10
 poisoning_per_batch: 20
 aggr_epoch_interval: 1 # aggregate every round
-# aggregation_methods Allowed values are: [ 'mean', 'geom_median','foolsgold']
-aggregation_methods: 'mean'
 geom_median_maxiter: 10
 fg_use_memory: true
 participants_namelist: [0,1,2,3,4,5,6,7,8,9]
@@ -58,6 +56,10 @@ scale_weights_poison: 100
 poison_label_swap: 2
 centralized_test_trigger: True
 
+
+
+# aggregation_methods Allowed values are: [ 'mean', 'geom_median','foolsgold']
+aggregation_methods: 'mean'
 
 
 #global lr:
