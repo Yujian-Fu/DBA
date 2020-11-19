@@ -64,9 +64,9 @@ aggregation_methods: 'mean'
 
 
 #global lr:
-eta: 0.1  # single-shot: 0.1; multi-shot: 1
+eta: 1  # single-shot: 0.1; multi-shot: 1
 
-baseline: false # single-shot: false; multi-shot:true
+baseline: true # single-shot: false; multi-shot:true
 
 
 # distributed attackers: (training img num : 606 - 591 - 568 - 557)
