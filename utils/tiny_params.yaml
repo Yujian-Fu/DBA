@@ -59,9 +59,9 @@ centralized_test_trigger: true
 aggregation_methods: 'mean'
 
 #global lr:
-eta: 0.1 # multishot: 1 ;singleshot: 0.1
+eta: 1 # multishot: 1 ;singleshot: 0.1
 
-baseline: false # single-shot: false; multi-shot: true
+baseline: true # single-shot: false; multi-shot: true
 
 # distributed attackers: (training img num : 990 - 993 -  983 - 993 )
 adversary_list: [0, 20, 74, 95]
