@@ -196,7 +196,7 @@ if __name__ == '__main__':
         #for begnign_key in begnign_name_keys:
         for begnign_key in agent_name_keys:
             for parameter_name in updates[begnign_key][1]:
-                update_array = updates[begnign_key][1][parameter_name].numpy().cpu().copy()
+                update_array = updates[begnign_key][1][parameter_name].cpu().numpy().copy()
                 if parameter_name not in begnign_base_dict:
                     begnign_base_dict[parameter_name] = update_array
                 else:
@@ -226,8 +226,8 @@ if __name__ == '__main__':
                         division = (adversarial_weight_array - begnign_weight_array) / begnign_weight_array
                         '''
 
-                        adversarial_weight_array = adversarial_weight[parameter_name].numpy().cpu().copy()
-                        begnign_weight_array = begnign_weight[parameter_name].numpy().cpu().copy()
+                        adversarial_weight_array = adversarial_weight[parameter_name].cpu().numpy().copy()
+                        begnign_weight_array = begnign_weight[parameter_name].cpu().numpy().copy()
                         replace_index = np.where(begnign_weight_array == 0)
 
                         begnign_weight_array[replace_index] = replace_eps
@@ -262,8 +262,8 @@ if __name__ == '__main__':
                         begnign_weight_array_2 = begnign_weight_2[parameter_name].numpy()[valid_index]
                         division = (begnign_weight_array_1 - begnign_weight_array_2) / begnign_weight_array_2
                         '''
-                        begnign_weight_array1 = begnign_weight_1[parameter_name].numpy().cpu().copy()
-                        begnign_weight_array2 = begnign_weight_2[parameter_name].numpy().cpu().copy()
+                        begnign_weight_array1 = begnign_weight_1[parameter_name].cpu().numpy().copy()
+                        begnign_weight_array2 = begnign_weight_2[parameter_name].cpu().numpy().copy()
                         replace_index = np.where(begnign_weight_array2 == 0)
 
                         begnign_weight_array1[replace_index] = replace_eps
