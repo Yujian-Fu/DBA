@@ -60,7 +60,7 @@ centralized_test_trigger: True
 
 
 # aggregation_methods Allowed values are: [ 'mean', 'geom_median','foolsgold']
-aggregation_methods: 'geom_median'
+aggregation_methods: 'foolsgold'
 
 
 #global lr:
