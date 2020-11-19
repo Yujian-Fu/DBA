@@ -196,7 +196,8 @@ if __name__ == '__main__':
         #for begnign_key in begnign_name_keys:
         for begnign_key in agent_name_keys:
             for parameter_name in updates[begnign_key][1]:
-                update_array = updates[begnign_key][1][parameter_name].cpu().numpy().copy()
+                
+                update_array = updates[begnign_key][1](parameter_name).cpu().numpy().copy()
                 if parameter_name not in begnign_base_dict:
                     begnign_base_dict[parameter_name] = update_array
                 else:
