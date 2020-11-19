@@ -64,9 +64,9 @@ eta: 1 # multishot: 1 ;singleshot: 0.1
 baseline: true # single-shot: false; multi-shot: true
 
 # distributed attackers: (training img num : 990 - 993 -  983 - 993 )
-adversary_list: [0, 20, 74, 95]
+#adversary_list: [0, 20, 74, 95]
 # centralized attackers: (training img num : 999)
-# adversary_list: [17]
+adversary_list: [17]
 
 trigger_num: 4
 
