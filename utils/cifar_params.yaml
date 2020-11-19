@@ -44,8 +44,7 @@ results_json: true
 alpha_loss: 1
 
 
-diff_privacy: false
-sigma: 0.01
+
 
 poison_epochs: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20,
                 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40,
@@ -59,9 +58,11 @@ poison_label_swap: 2
 centralized_test_trigger: True
 
 
+diff_privacy: false
+sigma: 0.01
 
 # aggregation_methods Allowed values are: [ 'mean', 'geom_median','foolsgold']
-aggregation_methods: 'mean'
+aggregation_methods: 'foolsgold'
 
 #global lr:
 eta: 1  # single-shot: 0.1; multi-shot: 1
@@ -69,9 +70,9 @@ eta: 1  # single-shot: 0.1; multi-shot: 1
 baseline: true # single-shot: false; multi-shot:true
 
 # distributed attackers: (training img num : 526 - 527 - 496 - 546)
-#adversary_list: [17, 33, 77, 11]
+adversary_list: [17, 33, 77, 11]
 # centralized attacker: (training img num: 529)
-adversary_list: [45]
+#adversary_list: [45]
 
 #adversary_list: [77, 11]
 
