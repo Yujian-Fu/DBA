@@ -17,3 +17,6 @@ Dataset: CIFAR, Tiny, Mnist
 2. Run Tiny set 
 3. Run multi-mechanism
 
+
+difference privacy: add noise
+
