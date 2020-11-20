@@ -62,7 +62,7 @@ diff_privacy: false
 sigma: 0.01
 
 # aggregation_methods Allowed values are: [ 'mean', 'geom_median','foolsgold']
-aggregation_methods: 'foolsgold'
+aggregation_methods: 'mean'
 
 #global lr:
 eta: 1  # single-shot: 0.1; multi-shot: 1
@@ -70,9 +70,9 @@ eta: 1  # single-shot: 0.1; multi-shot: 1
 baseline: true # single-shot: false; multi-shot:true
 
 # distributed attackers: (training img num : 526 - 527 - 496 - 546)
-adversary_list: [17, 33, 77, 11]
+#adversary_list: [17, 33, 77, 11]
 # centralized attacker: (training img num: 529)
-#adversary_list: [45]
+adversary_list: [45]
 
 #adversary_list: [77, 11]
 
